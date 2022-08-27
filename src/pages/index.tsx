@@ -6,7 +6,7 @@ import MainInfo from "../components/MainInfo";
 
 export default function Home() {
   return (
-    <Flex userSelect='none' as='main' direction='column' h='100vh' pb='2rem'>
+    <Flex userSelect='none' as='main' direction='column' h='100vh'>
       <Header />
       <MainBanner />
 

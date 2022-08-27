@@ -17,12 +17,14 @@ export default function SwiperSlideLink({ title, legend, href, bg }: SwiperSlide
                 direction='column'
                 align='center'
                 justifyContent='center'
-                bg={bg}
+                bgImage={bg}
                 bgSize='cover'
                 bgRepeat='no-repeat'
+                gap='12px'
+                cursor='pointer'
             >
-                <Heading>{title}</Heading>
-                <Text>{legend}</Text>
+                <Heading color='textColor.50' fontWeight='bold'>{title}</Heading>
+                <Text color='info.50' fontSize='x-large' fontWeight='bold'>{legend}</Text>
             </Flex>
         </Link>
     )

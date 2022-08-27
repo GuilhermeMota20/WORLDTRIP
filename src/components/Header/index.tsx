@@ -6,16 +6,26 @@ export default function Header() {
         <Flex
             as='header'
             w='100%'
-            maxWidth={1480}
             minH='100px'
-            align='center'
-            justifyContent='space-between'
-            px='6'
-            mx='auto'
+            boxShadow='lg'
+            position='fixed'
+            bg='white'
+            top='0'
+            left='0'
+            zIndex={10}
         >
-            <h1>Prevent</h1>
-            <Logo />
-            <span></span>
+            <Flex
+                align='center'
+                justifyContent='space-between'
+                maxWidth={1480}
+                px='6'
+                mx='auto'
+                w='100%'
+            >
+                <h1>Prevent</h1>
+                <Logo />
+                <span></span>
+            </Flex>
         </Flex>
     )
 }

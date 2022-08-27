@@ -15,6 +15,7 @@ export default function MainBanner() {
             bgImage='Background.png'
             bgRepeat='no-repeat'
             bgSize='cover'
+            mt='6rem'
         >
             <SimpleGrid
                 spacing={2}

@@ -1,4 +1,4 @@
-import { Box, Flex, Img } from "@chakra-ui/react";
+import { Box, Flex, Img, Link, Text } from "@chakra-ui/react";
 import Header from "../components/Header";
 import MainBanner from "../components/MainBanner";
 import MainCarousel from "../components/MainCarousel";
@@ -11,6 +11,7 @@ export default function Home() {
       <MainBanner />
 
       <Box
+        as="section"
         w='100%'
         h='100%'
         maxW={1480}
@@ -19,6 +20,10 @@ export default function Home() {
       >
         <MainInfo />
         <MainCarousel />
+
+        <Flex as='footer' align='center' justifyContent='center' pb='2rem'>
+          <Link href="https://gmotalinks.vercel.app/">by: Guilherme Mota</Link>
+        </Flex>
       </Box>
     </Flex>
   )

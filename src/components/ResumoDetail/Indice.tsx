@@ -14,7 +14,7 @@ export default function Indice({ title, description, icon }: IndiceProps) {
             <HStack>
                 <Text fontSize='large' fontWeight='semibold'>{description}</Text>
                 {icon && (
-                    <Tooltip hasArrow label='sei la...'>
+                    <Tooltip label='sei la...'>
                         <Icon color='info.100' as={icon} w={4} h={4} />
                     </Tooltip>
                 )}

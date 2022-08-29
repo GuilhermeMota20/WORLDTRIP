@@ -1,5 +1,6 @@
 import { Flex, useBreakpointValue } from "@chakra-ui/react";
 import Banner from "../../components/Banner";
+import Cities from "../../components/Cities";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import ResumoDetail from "../../components/ResumoDetail";
@@ -26,6 +27,7 @@ export default function Continent() {
                 mx='auto'
             >
                 <ResumoDetail />
+                <Cities />
                 <Footer />
             </Flex>
         </Flex>

@@ -9,7 +9,7 @@ import SwiperSlideLink from "./SwiperSlideLink";
 
 export default function MainCarousel() {
     return (
-        <Flex direction='column' gap='4rem' my='4rem'>
+        <Flex direction='column' gap='4rem'>
             <Flex direction='column' align='center' gap='4rem'>
                 <Box w='90px' h='2px' bg='info.100'></Box>
 
@@ -31,19 +31,19 @@ export default function MainCarousel() {
                     className="mySwiper"
                 >
                     <SwiperSlide>
-                        <SwiperSlideLink title="Europa" legend="O continente mais antigo" href="/" bg="ContinentImage.png" />
+                        <SwiperSlideLink title="Europa" legend="O continente mais antigo" href="/continent" bg="ContinentImage.png" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <SwiperSlideLink title="Europa" legend="O continente mais antigo" href="/" bg="ContinentImage.png" />
+                        <SwiperSlideLink title="Europa" legend="O continente mais antigo" href="/continent" bg="ContinentImage.png" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <SwiperSlideLink title="Europa" legend="O continente mais antigo" href="/" bg="ContinentImage.png" />
+                        <SwiperSlideLink title="Europa" legend="O continente mais antigo" href="/continent" bg="ContinentImage.png" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <SwiperSlideLink title="Europa" legend="O continente mais antigo" href="/" bg="ContinentImage.png" />
+                        <SwiperSlideLink title="Europa" legend="O continente mais antigo" href="/continent" bg="ContinentImage.png" />
                     </SwiperSlide>
                     <SwiperSlide>
-                        <SwiperSlideLink title="Europa" legend="O continente mais antigo" href="/" bg="ContinentImage.png" />
+                        <SwiperSlideLink title="Europa" legend="O continente mais antigo" href="/continent" bg="ContinentImage.png" />
                     </SwiperSlide>
                 </Swiper>
             </Box>
